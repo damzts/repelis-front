@@ -1,4 +1,4 @@
-const SERVER_URL = 'http://localhost:4000/movies/'
+const SERVER_URL = process.env.REACT_APP_API_URL + "movies/"
 
 export const getMovies = async () => {
     try {
