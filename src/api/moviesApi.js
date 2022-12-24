@@ -1,4 +1,5 @@
 const SERVER_URL = process.env.REACT_APP_API_URL + "/movies/"
+// const SERVER_URL = "https://boring-ants-production.up.railway.app/movies/"
 
 export const getMovies = async () => {
     try {

@@ -97,6 +97,7 @@ const MovieDetailsModal = ({ movie, onClose, isOpen, handleFavorites }) => {
                                     </Text>
                                 </HStack>
                                 <IconButton
+                                    name='addtofav'
                                     bgGradient={(movie._fav) ? 'linear(to-b, red.400, pink.800)' : 'radial(blackAlpha.700,blackAlpha.900)'}
                                     icon={<GoHeart color='antiquewhite' />}
                                     _hover={{

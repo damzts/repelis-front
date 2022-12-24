@@ -22,6 +22,7 @@ const MovieCardInfo = ({ movie, handleFavorites }) => {
           w='100%'
         >
           <Image
+            alt={movie.title}
             loading='eager'
             borderRadius="5px"
             boxSize='250px'
